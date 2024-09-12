@@ -1,7 +1,7 @@
 // words vs keywords
 
-// keyword=> any word which any meaning in JavaScript is called keywords
-// word=> any word which any meaning is not  in JavaScript is called keywords
+// keyword=> any word which any meaning in JavaScript Programming lamguage is called keywords
+// word=> any word which any meaning is not  in JavaScript Programming lamguage is called word
 
 console.log("helooo");
 console.error("helooo");
@@ -12,7 +12,7 @@ console.warn("helooo");
 var string = "hey sidd";
 console.log(string);
 
-// = is basically a assignment opreator by the help of this opreator we can assign any value to a variable.
+// = is basically a assignmental opreator by the help of this opreator we can assign any value to a variable.
 
 //left side of = is variable name and variable and the right side of = is value
 
@@ -45,7 +45,7 @@ console.log(typeof str2);
 console.log(tL);
 
 // +  => concatination
-//when we add anything in string then is convert into string always
+//when we add anything in string then its convert that datatype  into string always
 //string => '',"",``
 //single line string=>"",''
 //multiline string => ``(template literals)
@@ -66,7 +66,7 @@ console.log(typeof isValid);
 
 //7. null
 
-//when programmer is khow value is empty then peogrammer is use null and its type  is Object
+//when programmer is khow value is empty then peogrammer is use null and NaN  type  is "Object"
 
 var age = 23;
 console.log(age);
@@ -85,5 +85,23 @@ console.log(a);
 a = 34; //reInitialization
 console.log(a);
 
+
+//5. symbol=>symbal is basically a primitive datatype ,and its make our variable unique and the datatype of symbol is also a "SYMBOL"
+
+var sym1 = Symbol(10)
+var sym2 = Symbol(10)
+
+console.log(sym1);
+console.log(sym2);
+
+// even if pass a same value of both variables then it is also a unique
+console.log(sym1===sym2);//output:false 
+
+// console.log(typeof sym1);  output: symbol
+
+
+
+
+
 //4. Object
-//5. symbol
+
