@@ -3,14 +3,14 @@
 // keyword=> any word which any meaning in JavaScript Programming lamguage is called keywords
 // word=> any word which any meaning is not  in JavaScript Programming lamguage is called word
 
-console.log("helooo");
-console.error("helooo");
-console.warn("helooo");
+// console.log("helooo");
+// console.error("helooo");
+// console.warn("helooo");
 
 // variables=>variable is basically a container where we can store diffrent type of data ,like(string,number,boolean,array,object etc)....
 
-var string = "hey sidd";
-console.log(string);
+// var string = "hey sidd";
+// console.log(string);
 
 // = is basically a assignmental opreator by the help of this opreator we can assign any value to a variable.
 
@@ -29,20 +29,20 @@ console.log(string);
 // datatypes in js
 
 // 1.number  => NaN ,infinitty, -infinity
-var age = 12;
-console.log(age);
-console.log(typeof age);
+// var age = 12;
+// console.log(age);
+// console.log(typeof age);
 
 // 2.String
 
-var str = "bhopal" + "MP";
-var str2 = "bhopal";
+// var str = "bhopal" + "MP";
+// var str2 = "bhopal";
 
-var tL = `hell hey hiiii`;
-console.log(str);
-console.log(typeof str);
-console.log(typeof str2);
-console.log(tL);
+// var tL = `hell hey hiiii`;
+// console.log(str);
+// console.log(typeof str);
+// console.log(typeof str2);
+// console.log(tL);
 
 // +  => concatination
 //when we add anything in string then its convert that datatype  into string always
@@ -52,56 +52,118 @@ console.log(tL);
 
 //template literals=> by the help of template literels we can use dynamic values in the web
 
-var name = "siddharth";
-var age = 21;
+// var name = "siddharth";
+// var age = 21;
 
-console.log(`Name is ${name} and the age is ${age}`);
+// console.log(`Name is ${name} and the age is ${age}`);
 
 // 3. boolean
 
 // boolean is basically a datatype which value will only true or false
 
-var isValid = true;
-console.log(typeof isValid);
+// var isValid = true;
+// console.log(typeof isValid);
 
-//7. null
+//7. null 👇👇👇👇👇
 
 //when programmer is khow value is empty then peogrammer is use null and NaN  type  is "Object"
 
-var age = 23;
-console.log(age);
+// var age = 23;
+// console.log(age);
 
-var age = null;
-console.log(typeof age);
+// var age = null;
+// console.log(typeof age);
 
-//Undefined
+//Undefined👇👇👇👇👇
 
-var a; //when we print a variable before its initilization then its give us undefined and the DATATYPE of undefined is also UNDEFINED
-console.log(a);
+// var a;
+//when we print a variable before its initilization then its give us undefined and the DATATYPE of undefined is also UNDEFINED
+// console.log(a);
 
-a = 12; //Initialization
-console.log(a);
+// a = 12; //Initialization
+// console.log(a);
 
-a = 34; //reInitialization
-console.log(a);
+// a = 34; //reInitialization
+// console.log(a);
 
+//5. symbol=>👇👇👇👇👇
+// symbal is basically a primitive datatype ,and its make our variable unique and the datatype of symbol is also a "SYMBOL"
 
-//5. symbol=>symbal is basically a primitive datatype ,and its make our variable unique and the datatype of symbol is also a "SYMBOL"
+// var sym1 = Symbol(10);
+// var sym2 = Symbol(10);
 
-var sym1 = Symbol(10)
-var sym2 = Symbol(10)
-
-console.log(sym1);
-console.log(sym2);
+// console.log(sym1);
+// console.log(sym2);
 
 // even if pass a same value of both variables then it is also a unique
-console.log(sym1===sym2);//output:false 
+// console.log(sym1 === sym2); //output:false
 
 // console.log(typeof sym1);  output: symbol
 
+// output-methods
+// 1.console.log("hello");
+// 2.alert("heyyy")
+
+//input methods👇👇👇👇👇
+
+// 1. prompt
+// var a  = prompt("enter first number")
+// var b  = prompt("enter second number")
+// console.log(a+b);
+
+//2. comfirm()
+
+// let result = confirm("Are you sure want to leave this page")
+// console.log(result);
+
+//type conversion 👇👇👇👇👇
+
+// 1. Explicit type conversion=>developer does that
+
+// var a = Number(prompt("enter first number"));
+// var b = +prompt("enter second number"); //flow=>right to left
+// console.log(a + b);
+
+// Symbol()
+// Boolean()
+// Number()
+
+// 1. Implicit type conversion=> computer(Programming Language ) does that
+
+//   12 +"hello" => "12hello"
+
+
+//scope 👇👇👇👇👇
+
+// there are two types of scope
+//1. Global variable or Global Scope =>we can use this variable througout the whole program 
+
+//2. Local Scope or Local variable =>only accessible in curly brackets we we initialize this into curley brackes
+
+//there are two type of local variables =>
+    //1. let =>it value can be modified 
+//    {
+//     const a = 'hello'
+//     console.log(a);
+//     a = 'hey'
+//     console.log(a) //it value can not change=> Refrence error =>
+    
+//    }
 
 
 
 
-//4. Object
+    //2. Const => it value cant modified
+    // {
+    //     let name = "sidd"
+    //     console.log(name);
+    //     name = "john"
+    //     console.log(name);// it will be modified
+        
+        
+    // }
 
+
+    // what is just in time cmpiler ???
+
+    
