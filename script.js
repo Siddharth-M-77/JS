@@ -132,38 +132,113 @@
 
 //   12 +"hello" => "12hello"
 
-
 //scope 👇👇👇👇👇
 
 // there are two types of scope
-//1. Global variable or Global Scope =>we can use this variable througout the whole program 
+//1. Global variable or Global Scope =>we can use this variable througout the whole program
 
 //2. Local Scope or Local variable =>only accessible in curly brackets we we initialize this into curley brackes
 
 //there are two type of local variables =>
-    //1. let =>it value can be modified 
+//1. let =>it value can be modified
 //    {
 //     const a = 'hello'
 //     console.log(a);
 //     a = 'hey'
 //     console.log(a) //it value can not change=> Refrence error =>
-    
+
 //    }
 
+//2. Const => it value cant modified
+// {
+//     let name = "sidd"
+//     console.log(name);
+//     name = "john"
+//     console.log(name);// it will be modified
+
+// }
+
+// what is just in time cmpiler ???
+
+//Operators 👇👇👇👇👇
+// 1. Arthemetic operator
+//2.  Asssinment Operator
+//3. Conditinal Operator
+
+//1. Arithemetic operator=> +,-,* ,/,%,**
+// a. unirary operator->increment and decrement operator (++ , --)
+//b. binary operator-> +,-,* ,/,%,**
+//c. shorthand operator -> += ,-=,*=, /= ,%=
+
+// let n = 1;
+// let m = 2;
+// let sum = n + m;
+// console.log(`the sum of ${n} and ${m} is ${sum}`);
+
+// let a = 1;
+// let b = 2;
+// let sub = a - b;
+// console.log(`the sum of ${a} and ${b} is ${sum}`);
+
+// let c = 1;
+// let d = 2;
+// let multi = c - d;
+// console.log(`the sum of ${c} and ${d} is ${multi}`);
+
+// let p = 1;
+
+// let t = 2;
+// let div = p - t;
+
+// console.log(`the sum of ${p} and ${t} is ${div}`);
+
+//modulodivision => %
+
+// let a = 10
+// let b  = 20
+// let c= b%a
+// console.log(c); output: 0
+
+// let a = 2
+// let b  = 10
+// let c= a%b
+// console.log(c);  output:2
+
+//double astrics (**) => it find the square of any number
+
+// let a = 3;
+// let b = 2;
+// let exp = a ** b;
+// console.log(exp);  output: 9
+
+//shorthand operator = > += ,-=,*=, /= ,%=
+
+// let a = 10
+// a  += 20
+// console.log(a)  op=30
+
+
+// let a = 10
+// a  -= 20
+// console.log(a) op=-10
 
 
 
-    //2. Const => it value cant modified
-    // {
-    //     let name = "sidd"
-    //     console.log(name);
-    //     name = "john"
-    //     console.log(name);// it will be modified
-        
-        
-    // }
+
+// let a = 10;
+// a /= 20;
+// console.log(a);
 
 
-    // what is just in time cmpiler ???
+// let a = 10
+// a  %= 20
+// console.log(a)
 
-    
+// let a = 10
+// a  *= 20
+// console.log(a)
+
+
+// let a = 10
+// a  **= 20
+// console.log(a) 
