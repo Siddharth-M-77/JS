@@ -267,6 +267,22 @@
 // let b = "hey"
 // console.log(a>b)  output:> false
 
-let a = "Hi"
-let b = "HI"
-console.log(a>b)  
+// let a = "Hi"
+// let b = "HI"
+// console.log(a>b)
+
+//Logical operator 👇👇👇
+
+//:>   && , || , !
+
+//logical operators  && || ! results (a/c to the data which is logiclly comapred)
+
+// console.log(true && true && true)
+// console.log(true && false && true)
+
+//false values => 0, "" , undefined , NaN , false , null
+
+// console.log(0 || 8 || true || false)
+// console.log("hii" || true || 0 || NaN)  output-- will be the true value
+
+// console.log(9 && 8 && null && false); //output will be null 
