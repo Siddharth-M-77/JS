@@ -249,7 +249,6 @@
 // console.log(x)
 // console.log(a)
 
-
 //comparison operator 👇👇👇 comparison operator always return only boolean values....
 
 // >= , <= , == , === , != , < , > , !==
@@ -261,3 +260,13 @@
 // let  a= 10
 // let b = "10"
 // console.log(a==+b) output:> false
+
+//when we campare string with comparision operator , only the first non equal character is compared a/c to its ASCII value
+
+// let a = "hello"
+// let b = "hey"
+// console.log(a>b)  output:> false
+
+let a = "Hi"
+let b = "HI"
+console.log(a>b)  
