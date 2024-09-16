@@ -217,18 +217,13 @@
 // a  += 20
 // console.log(a)  op=30
 
-
 // let a = 10
 // a  -= 20
 // console.log(a) op=-10
 
-
-
-
 // let a = 10;
 // a /= 20;
 // console.log(a);
-
 
 // let a = 10
 // a  %= 20
@@ -238,7 +233,31 @@
 // a  *= 20
 // console.log(a)
 
-
 // let a = 10
 // a  **= 20
-// console.log(a) 
+// console.log(a)
+
+//increment and decrement opreator 👇👇👇
+
+// let a =12
+// let res = ++a + ++a + ++a + a--
+// console.log(res);
+// console.log(a)
+
+// let a = 13
+// let x = a++ + --a + ++a + a++
+// console.log(x)
+// console.log(a)
+
+
+//comparison operator 👇👇👇 comparison operator always return only boolean values....
+
+// >= , <= , == , === , != , < , > , !==
+
+// let  a= 10
+// let b = "10"
+// console.log(a==b) output:> true
+
+// let  a= 10
+// let b = "10"
+// console.log(a==+b) output:> false
