@@ -325,3 +325,21 @@
 // }else{
 //     //do domethings
 // }
+
+
+//program 1
+let n =0;
+
+
+//simple if
+if(n>=0){
+    console.log("Positive")
+}
+
+//simple if-else
+
+if(n>=0){
+    console.log("Positive")
+}else{
+    console.log("negative")
+}
