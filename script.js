@@ -326,20 +326,43 @@
 //     //do domethings
 // }
 
-
 //program 1
-let n =0;
+// let n = 12;
 
+//simple if  👇👇👇👇👇
+// if (n >= 0) {
+//   console.log("Positive");
+// }
 
-//simple if
-if(n>=0){
-    console.log("Positive")
-}
+//simple if-else  👇👇👇👇👇
 
-//simple if-else
+// if (n >= 0) {
+//   console.log("Positive");
+// } else {
+//   console.log("negative");
+// }
 
-if(n>=0){
-    console.log("Positive")
-}else{
-    console.log("negative")
-}
+//ladder if-else or multiple if-else  👇👇👇👇👇
+
+// if (n > 0) {
+//   console.log("Positive");
+// } else if (n == 0) {
+//   console.log("Zero");
+// } else {
+//   console.log("Negative");
+// }
+
+//Nested if-else 👇👇👇👇👇
+
+// if (n > 0) {
+
+//   if (n % 2 == 0) {
+//     console.log("Number is Positive and Even");
+//   } else {
+//     console.log("Number is Positive and ODD");
+//   }
+// } else if (n == 0) {
+//   console.log("Zero");
+// } else {
+//   console.log("Negative");
+// }
