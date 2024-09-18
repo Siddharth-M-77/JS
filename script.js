@@ -285,4 +285,43 @@
 // console.log(0 || 8 || true || false)
 // console.log("hii" || true || 0 || NaN)  output-- will be the true value
 
-// console.log(9 && 8 && null && false); //output will be null 
+// console.log(9 && 8 && null && false); //output will be null
+
+//conditional statement 👇👇👇
+
+//if, else ,if-else , switch  //
+
+//1. simple if-else statement
+// if(condition){
+//     //do somethings
+// }
+// else{
+//     // do somethings
+// }
+
+//2. ladder / multiple if-else statement
+
+// if(condition){
+//     //do smethings
+// }
+// else if(){
+//     //do somethings
+// }
+// else if(){
+//     //do somethings
+// }
+// else{
+//     // do somethings
+// }
+
+//3. nested if-else condition
+
+// if (condition) {
+//   if (codition2) {
+//     //do somethings
+//   } else {
+//     //do somethings
+//   }
+// }else{
+//     //do domethings
+// }
