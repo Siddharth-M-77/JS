@@ -384,12 +384,37 @@
 
 //   W.A.P to take name and age input from the user and print  👇👇👇👇👇
 
-let name = prompt("Enter your name");
-let age = Number(prompt("Enter your age"));
-console.log(`name is ${name} and the age is ${age}`);
+// let name = prompt("Enter your name");
+// let age = Number(prompt("Enter your age"));
+// console.log(`name is ${name} and the age is ${age}`);
 
-if (age >= "18") {
-  console.log("you can vote");
+// if (age >= "18") {
+//   console.log("you can vote");
+// } else {
+//   console.log(`You can not age for more ${18 - age} years`);
+// }
+
+//ternary operator  👇👇👇👇👇
+
+//syntax => condition ? true statement  : false statement
+
+//program
+
+// const result =
+//   age >= 18 ? "You can vote" : `You can not age for more ${18 - age} years`;
+
+//   console.log(result)
+
+//2. W.A.P to takes 3numeric inputs from the user
+
+const num1 = Number(prompt("ENter 1st Number"));
+const num2 = Number(prompt("ENter 2nd Number"));
+const num3 = Number(prompt("ENter 3rd Number"));
+
+if (num1 == num2 && num2 == num3) {
+  console.log("Threee side  Are Equal:=>Triangle");
+} else if (num1 == num2 || num2 == num3 || num1 == num3) {
+  console.log("Two side are equal:=>");
 } else {
-  console.log(`You can not age for more ${18 - age} years`);
+  console.log("Three side are not equal");
 }
