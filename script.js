@@ -367,16 +367,29 @@
 //   console.log("Negative");
 // }
 
-//using logical operator in if-else (nested)
+//using logical operator in if-else (nested) 👇👇👇👇👇
 
+// let n = 12;
+// if (n > 0 && n % 2 == 0) {
+//   console.log("Positive Even");
+// } else if (n > 0 && n % 2 != 0) {
+//   console.log("Positive Odd");
+// } else if (n < 0) {
+//   console.log("Negative");
+// } else {
+//   console.log("Zero");
+// }
 
-let n = 12;
-if (n > 0 && n % 2 == 0) {
-  console.log("Positive Even");
-} else if (n > 0 && n % 2 != 0) {
-  console.log("Positive Odd");
-} else if (n < 0) {
-  console.log("Negative");
+//  fall throw???  print number without loop and recersion ??   switch kya hai???   =>interview Question
+
+//   W.A.P to take name and age input from the user and print  👇👇👇👇👇
+
+let name = prompt("Enter your name");
+let age = Number(prompt("Enter your age"));
+console.log(`name is ${name} and the age is ${age}`);
+
+if (age >= "18") {
+  console.log("you can vote");
 } else {
-  console.log("Zero");
+  console.log(`You can not age for more ${18 - age} years`);
 }
