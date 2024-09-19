@@ -366,3 +366,17 @@
 // } else {
 //   console.log("Negative");
 // }
+
+//using logical operator in if-else (nested)
+
+
+let n = 12;
+if (n > 0 && n % 2 == 0) {
+  console.log("Positive Even");
+} else if (n > 0 && n % 2 != 0) {
+  console.log("Positive Odd");
+} else if (n < 0) {
+  console.log("Negative");
+} else {
+  console.log("Zero");
+}
