@@ -428,6 +428,26 @@
 
 // W.A.P to reverse a string
 
-let str = "siddharth"
-let res = str.split("").reverse().join('')
-console.log(res)
+// let str = "siddharth"
+// let res = str.split("").reverse().join('')
+// console.log(res)
+
+//W.A.P to cheak given words is vowel or consonents
+
+let vowels = ["a", "e", "i", "o", "u"];
+
+function checkVowelOrConsonant(letter) {
+    // Convert the letter to lowercase to handle both uppercase and lowercase inputs
+    letter = letter.toLowerCase();
+
+    // Check if the letter is a vowel
+    if (vowels.includes(letter)) {
+        console.log(`${letter} is a vowel.`);
+    } else {
+        console.log(`${letter} is a consonant.`);
+    }
+}
+
+// Example usage
+let letter = prompt("Enter a letter:");
+checkVowelOrConsonant(letter);
