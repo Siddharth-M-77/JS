@@ -407,14 +407,21 @@
 
 //2. W.A.P to takes 3numeric inputs from the user
 
-const num1 = Number(prompt("ENter 1st Number"));
-const num2 = Number(prompt("ENter 2nd Number"));
-const num3 = Number(prompt("ENter 3rd Number"));
+// const num1 = Number(prompt("ENter 1st Number"));
+// const num2 = Number(prompt("ENter 2nd Number"));
+// const num3 = Number(prompt("ENter 3rd Number"));
 
-if (num1 == num2 && num2 == num3) {
-  console.log("Threee side  Are Equal:=>Triangle");
-} else if (num1 == num2 || num2 == num3 || num1 == num3) {
-  console.log("Two side are equal:=>");
-} else {
-  console.log("Three side are not equal");
-}
+// if (num1 == num2 && num2 == num3) {
+//   console.log("Threee side  Are Equal:=>Triangle");
+// } else if (num1 == num2 || num2 == num3 || num1 == num3) {
+//   console.log("Two side are equal:=>");
+// } else {
+//   console.log("Three side are not equal");
+// }
+
+//W.A.P to sum three number
+
+let a = 12;
+let b =12;
+let c = 12;
+console.log(a+b+c)
