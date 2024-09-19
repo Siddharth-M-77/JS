@@ -421,7 +421,13 @@
 
 //W.A.P to sum three number
 
-let a = 12;
-let b =12;
-let c = 12;
-console.log(a+b+c)
+// let a = 12;
+// let b =12;
+// let c = 12;
+// console.log(a+b+c)
+
+// W.A.P to reverse a string
+
+let str = "siddharth"
+let res = str.split("").reverse().join('')
+console.log(res)
