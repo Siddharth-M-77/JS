@@ -456,7 +456,7 @@
 
 // there is two types of loops
 
-//1. entry controll loop(while)
+//1. entry controll loop(while)(for-loop)
 //2. exit controll loop(do-while)
 
 //1. loop variable
@@ -464,7 +464,7 @@
 //3. Body of the loop
 //4. Updtion exp
 
-//syntax=>
+//syntax=>   👇👇👇👇👇
 // while (condition) {
 //     //loop statement
 //     //updation
@@ -472,16 +472,46 @@
 
 //example => print 1 - 10 number
 
-//entry controll loop
-let i = 1;
+//entry controll loop  👇👇👇👇👇
+
+// let i = 1;
 // while(i<=10){
 //     console.log(i)
 //     i++
 
 // }
+//console.log("ENd Of The Loop")
 
-// //exit controll loop
+//for loop syntax
+
+// for (i = 0; i <= 20; i++) {
+//   console.log(i);
+// }
+// console.log("End Of The Loop");
+
+// //exit controll loop(do-while)👇👇👇👇👇
 // do {
 //   console.log(i);
 //   i++;
 // } while (i <= 10);
+//console.log("ENd Of The Loop")
+
+//break and continue statement=>
+
+// for (let i = 0; i <= 20; i++) {
+//   if (i % 2 != 0) {
+//     console.log("skip");
+//     continue;
+//   }
+//   console.log(i);
+// }
+// console.log("End Of The Loop");
+
+for (let i = 1; i <= 20; i++) {
+  if (i<=10) {
+    console.log("break");
+    break;
+  }
+  console.log(i);
+}
+console.log("End Of The Loop");
