@@ -434,20 +434,54 @@
 
 //W.A.P to cheak given words is vowel or consonents
 
-let vowels = ["a", "e", "i", "o", "u"];
+// let vowels = ["a", "e", "i", "o", "u"];
 
-function checkVowelOrConsonant(letter) {
-    // Convert the letter to lowercase to handle both uppercase and lowercase inputs
-    letter = letter.toLowerCase();
+// function checkVowelOrConsonant(letter) {
+//   // Convert the letter to lowercase to handle both uppercase and lowercase inputs
+//   letter = letter.toLowerCase();
 
-    // Check if the letter is a vowel
-    if (vowels.includes(letter)) {
-        console.log(`${letter} is a vowel.`);
-    } else {
-        console.log(`${letter} is a consonant.`);
-    }
-}
+//   // Check if the letter is a vowel
+//   if (vowels.includes(letter)) {
+//     console.log(`${letter} is a vowel.`);
+//   } else {
+//     console.log(`${letter} is a consonant.`);
+//   }
+// }
 
-// Example usage
-let letter = prompt("Enter a letter:");
-checkVowelOrConsonant(letter);
+// // Example usage
+// let letter = prompt("Enter a letter:");
+// checkVowelOrConsonant(letter);
+
+//Iteertive statement /loops 👇👇👇👇👇
+
+// there is two types of loops
+
+//1. entry controll loop(while)
+//2. exit controll loop(do-while)
+
+//1. loop variable
+//2. condition exp
+//3. Body of the loop
+//4. Updtion exp
+
+//syntax=>
+// while (condition) {
+//     //loop statement
+//     //updation
+//     }
+
+//example => print 1 - 10 number
+
+//entry controll loop
+let i = 1;
+// while(i<=10){
+//     console.log(i)
+//     i++
+
+// }
+
+// //exit controll loop
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 10);
