@@ -516,19 +516,30 @@
 // }
 // console.log("End Of The Loop");
 
-// //W.A.P TO accept two integer from user and display the sum of them
+// //1=> W.A.P TO accept two integer from user and display the sum of them
 
 // let num1 = Number(prompt("Enter first number"))
 // let num2 = Number(prompt("Enter second number"))
 // let sum = num1 +num2
 // alert(`sum is ${sum}`)
 
-// //W.A.P TO swap two number
+// //2=> W.A.P TO swap two number
 
-let n = 3;
-let m = 6;
-console.log("Before swapping ", n, m);
-let temp = n;
-n = m;
-m = temp;
-console.log("After swapping ", n, m);
+// using 3rd variable
+
+// let n = 3;
+// let m = 6;
+// console.log("Before swapping ", n, m);
+// let temp = n;
+// n = m
+// m = temp;
+// console.log("After swapping ", n, m);
+
+//without using 3rd variable
+// let n = 3;
+// let m = 6;
+// console.log("Before swapping ", n, m);
+// n = n + m;
+// m = n - m;
+// n = n - m;
+// console.log("Before swapping ", n, m);
