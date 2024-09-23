@@ -543,3 +543,10 @@
 // m = n - m;
 // n = n - m;
 // console.log("Before swapping ", n, m);
+
+// W.A.P TO ACCEPT LENGTH AND WIDTH FOR THE RECTANGLE AND DISPLAY ITS AREA  AND PARAMETER
+
+let length = Number(prompt("Enter length"));
+let width = Number(prompt("Enter width"));
+console.log(`area is ${length * width}`);
+console.log(`Parameter is ${2 * [length + width]}`);
