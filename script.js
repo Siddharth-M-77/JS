@@ -561,5 +561,21 @@
 // console.log(SI)
 
 //W.A.P TO accept 3 sides of the tringle and find the area with herons formula
+
+// formula 1 = S =( a+b +c)/2 where s = semiparamerter of trangle
+//formula 2 SA =SQRT(S(S-A)(S-B)(S-C) )
+
+let a = +prompt("Enter 1st side of Trangle");
+let b = +prompt("Enter 2nd side of Trangle");
+let c = +prompt("Enter 3rd side of Trangle");
+let SP = (a + b + c) / 2;
+// console.log(SP)
+
+let Area = Math.sqrt(SP * (SP - a) * (SP - b) * (SP - c));
+// console.log(Area)
+
 //W.A.P to find circumference of the spahre
+
+//formula 1 =>
+
 //W.A.P to find the area and parameter of the circle
