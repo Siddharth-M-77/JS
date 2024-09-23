@@ -565,17 +565,38 @@
 // formula 1 = S =( a+b +c)/2 where s = semiparamerter of trangle
 //formula 2 SA =SQRT(S(S-A)(S-B)(S-C) )
 
-let a = +prompt("Enter 1st side of Trangle");
-let b = +prompt("Enter 2nd side of Trangle");
-let c = +prompt("Enter 3rd side of Trangle");
-let SP = (a + b + c) / 2;
+// let a = +prompt("Enter 1st side of Trangle");
+// let b = +prompt("Enter 2nd side of Trangle");
+// let c = +prompt("Enter 3rd side of Trangle");
+// let SP = (a + b + c) / 2;
 // console.log(SP)
 
-let Area = Math.sqrt(SP * (SP - a) * (SP - b) * (SP - c));
+// let Area = Math.sqrt(SP * (SP - a) * (SP - b) * (SP - c));
 // console.log(Area)
 
 //W.A.P to find circumference of the spahre
 
-//formula 1 =>
+//formula 1 => Surface area = 4pirr
+// let R = +prompt("Enter Redius");
+// const pi = 3.14;
+
+// let SA = 4 * pi * R ** 2;
+// console.log(SA);
 
 //W.A.P to find the area and parameter of the circle
+
+//formula =>parameter =  2piR
+//          area = piRR
+
+
+
+
+const pi = 3.14;
+
+let R = +prompt("Enter Redius");
+
+// let P = 2*pi*R
+// console.log(P)
+let Area = pi*(R**2)
+console.log(Area)
+
