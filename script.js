@@ -546,7 +546,20 @@
 
 // W.A.P TO ACCEPT LENGTH AND WIDTH FOR THE RECTANGLE AND DISPLAY ITS AREA  AND PARAMETER
 
-let length = Number(prompt("Enter length"));
-let width = Number(prompt("Enter width"));
-console.log(`area is ${length * width}`);
-console.log(`Parameter is ${2 * [length + width]}`);
+// let length = Number(prompt("Enter length"));
+// let width = Number(prompt("Enter width"));
+// console.log(`area is ${length * width}`);
+// console.log(`Parameter is ${2 * [length + width]}`);
+
+//W.A.P A PROGRAM TO FIND THE FIND SIMPLE INTREST
+
+// let a = +prompt("Enter principle amount")
+// let b = +prompt("Enter Intrest rate ")
+// let c = +prompt("Enter year")
+
+// let SI = a*b*c/100
+// console.log(SI)
+
+//W.A.P TO accept 3 sides of the tringle and find the area with herons formula
+//W.A.P to find circumference of the spahre
+//W.A.P to find the area and parameter of the circle
