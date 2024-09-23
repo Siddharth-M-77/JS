@@ -507,11 +507,25 @@
 // }
 // console.log("End Of The Loop");
 
-for (let i = 1; i <= 20; i++) {
-  if (i<=10) {
-    console.log("break");
-    break;
-  }
-  console.log(i);
-}
-console.log("End Of The Loop");
+// for (let i = 1; i <= 20; i++) {
+//   if (i<=10) {
+//     console.log("break");
+//     break;
+//   }
+//   console.log(i);
+// }
+// console.log("End Of The Loop");
+
+
+
+
+
+
+
+
+// //W.A.P TO accept two integer from user and display the sum of them
+
+let num1 = Number(prompt("Enter first number"))
+let num2 = Number(prompt("Enter second number"))
+let sum = num1 +num2
+console.log(sum)
