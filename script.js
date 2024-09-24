@@ -588,15 +588,23 @@
 //formula =>parameter =  2piR
 //          area = piRR
 
+// const pi = 3.14;
 
+// let R = +prompt("Enter Redius");
 
+// // let P = 2*pi*R
+// // console.log(P)
+// let Area = pi*(R**2)
+// console.log(Area)
 
-const pi = 3.14;
+//Functions in Javascript ???
 
-let R = +prompt("Enter Redius");
+//1.st => function decleration;
+//2nd => function calling
 
-// let P = 2*pi*R
-// console.log(P)
-let Area = pi*(R**2)
-console.log(Area)
-
+//example
+// function name() {
+//   let a = "siddharth"; // function decleration or function initialization
+//   console.log(a);
+// }
+// name(); //function calling
