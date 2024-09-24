@@ -608,3 +608,11 @@
 //   console.log(a);
 // }
 // name(); //function calling
+
+
+function name() {
+    let a =10; // function decleration or function initialization
+    let b= 20
+  console.log(a+b);
+}
+name(); //function calling
