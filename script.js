@@ -610,9 +610,18 @@
 // name(); //function calling
 
 
-function name() {
-    let a =10; // function decleration or function initialization
-    let b= 20
-  console.log(a+b);
-}
-name(); //function calling
+// function name() {
+//     let a =10; // function decleration or function initialization
+//     let b= 20
+//   console.log(a+b);
+// }
+// name(); //function calling
+
+
+//key points in function*****
+
+//1. By default funtion return undefined
+//2.return must be the last line of the funtion
+//3.only single entity must be returned bt the  function
+//4. function call is replaced by the return value 
+//5. code written after return in the function will not be reachable.
