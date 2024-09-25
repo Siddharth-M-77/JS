@@ -633,10 +633,29 @@
 // console.log(a);
 // let a = name();
 
-name();              //our function call (non-parametrized function call)
+// name();              //our function call (non-parametrized function call)
+// console.log("hello"); // Js Function call (parametrized function call)
 
-console.log("hello"); // Js Function call (parametrized function call)
+// **************
+// if we pass arguments a function then its called parametarized function and we accept this arguments in function parameter
 
 // ***********************
 //function=>not compulsory to return somethings
 //method(object) => compulsory to return somethings
+
+function getName(name, city) {
+  console.log(name, city);
+}
+
+getName("Sidd", "mumbai");
+
+
+//example of return 
+
+function getSum(n,m){
+    const sum = n+m;
+    return sum;
+}
+
+let res = getSum(2,3)
+console.log(res*5)
