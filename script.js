@@ -664,8 +664,34 @@
 //1. Default parameter must be the parameter og the function
 //2.there shuld be only 1 default parameter in the function
 
-function dets(firstname, batchcode = " mern12") {
-  console.log(firstname, batchcode);
-}
-dets("Sidd");
-dets("Abhi", "B28");
+// function dets(firstname, batchcode = " mern12") {
+//   console.log(firstname, batchcode);
+// }
+// dets("Sidd");
+// dets("Abhi", "B28");
+
+//rest operator (...) they can hold infinite value . when we dont know how many values will come then we use rest operator✅✅✅✅✅
+// function hobbies(name, ...args) {
+//   console.log(name, args);
+// }
+
+// hobbies("john", "swimming");
+// hobbies("john", "swimming", "cricket");
+// hobbies("john", "swimming", "running", "singing");
+// hobbies("john");
+
+//Fat Arrow Function syntax ✅✅✅✅✅
+
+const fun = () => "hello";
+
+let res1 = fun();
+console.log(res1);
+
+//non parametrize arrow function
+const greet = () => "hello";
+
+// parametrize arrow function
+const sum = (a, b) => a + b;
+
+let res = sum(2, 3);
+console.log(res);
