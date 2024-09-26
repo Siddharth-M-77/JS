@@ -643,19 +643,29 @@
 //function=>not compulsory to return somethings
 //method(object) => compulsory to return somethings
 
-function getName(name, city) {
-  console.log(name, city);
+// function getName(name, city) {
+//   console.log(name, city);
+// }
+
+// getName("Sidd", "mumbai");
+
+//example of return
+
+// function getSum(n,m){
+//     const sum = n+m;
+//     return sum;
+// }
+
+// let res = getSum(2,3)
+// console.log(res*5)
+
+//default Parameter???
+
+//1. Default parameter must be the parameter og the function
+//2.there shuld be only 1 default parameter in the function
+
+function dets(firstname, batchcode = " mern12") {
+  console.log(firstname, batchcode);
 }
-
-getName("Sidd", "mumbai");
-
-
-//example of return 
-
-function getSum(n,m){
-    const sum = n+m;
-    return sum;
-}
-
-let res = getSum(2,3)
-console.log(res*5)
+dets("Sidd");
+dets("Abhi", "B28");
