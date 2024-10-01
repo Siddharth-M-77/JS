@@ -682,16 +682,20 @@
 
 //Fat Arrow Function syntax ✅✅✅✅✅
 
-const fun = () => "hello";
+// const fun = () => "hello";
 
-let res1 = fun();
-console.log(res1);
+// let res1 = fun();
+// console.log(res1);
 
 //non parametrize arrow function
-const greet = () => "hello";
+// const greet = () => "hello";
 
 // parametrize arrow function
-const sum = (a, b) => a + b;
+// const sum = (a, b) => a + b;
 
-let res = sum(2, 3);
-console.log(res);
+// let res = sum(2, 3);
+// console.log(res);
+
+
+//Hoisting var partially hosted hai isliye ye undefined show krta hai
+//but hoisting  let and const ko compiler undefined nhi initailize kr paata  so is case ko Temporal Dead Zone bolte hai 
