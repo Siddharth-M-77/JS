@@ -1,5 +1,7 @@
 // words vs keywords
 
+const { before } = require("node:test");
+
 // keyword=> any word which any meaning in JavaScript Programming lamguage is called keywords
 // word=> any word which any meaning is not  in JavaScript Programming lamguage is called word
 
@@ -696,6 +698,37 @@
 // let res = sum(2, 3);
 // console.log(res);
 
+//Hoisting me var partially hosted ho jata hai isliye ye undefined show krta hai
 
-//Hoisting var partially hosted hai isliye ye undefined show krta hai
-//but hoisting  let and const ko compiler undefined nhi initailize kr paata  so is case ko Temporal Dead Zone bolte hai 
+//but hoisting me  let and const ko compiler undefined  initailize nhi kr paata  so is case ko Temporal Dead Zone bolte hai
+
+//function are fully hoisted and make sure function keyword is used in that function then only it hoisted
+
+//var is partially hosted
+
+//let & const is shows the TDZ(no hoisting)
+
+//function with arrow function show no hositing(TDZ) or depanding the way it is decleared
+
+// example:
+
+// add(1, 2); // this is throw an error that add is not a function bcas it is a anonymus function and without fuction keyword it cant not hoisted❌❌❌❌
+// var add = (a, b) => {
+//   console.log(a + b);
+// };
+
+//  primitive or non refrence dataTypes
+// let a = 12;
+// let b = a;
+// b = 15;
+// console.log(a); // here value of a is immutable or unchanged
+// console.log(b); // so value of b will changed
+
+//mutable or non primitive or Reference Data Type
+
+// Array & Object
+// let a = [1, 2, 3, 4, 5];
+// let b = a;
+// a[1] = 200
+// console.log(a)
+// console.log(b)
