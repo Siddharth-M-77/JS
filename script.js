@@ -732,3 +732,13 @@ const { before } = require("node:test");
 // a[1] = 200
 // console.log(a)
 // console.log(b)
+
+
+
+//objects???
+const obj = {
+    name:"Siddharth",
+    age:20
+}
+console.log(obj.name) //1st way to acees obj data (.property or .keyname)
+console.log(obj["name"]) //2nd way to acees obj data["keyname"] or ["property"]
