@@ -733,12 +733,46 @@ const { before } = require("node:test");
 // console.log(a)
 // console.log(b)
 
-
-
 //objects???
+
+//syntax => {}
+// const obj = {
+//   name: "Siddharth",
+//   age: 20,
+// };
+
+// //access the property
+// console.log(obj.name); //1st way to acees obj data (.property or .keyname)
+// console.log(obj["name"]); //2nd way to acees obj data["keyname"] or ["property"]
+
+// //update the property
+
+// obj.age = 34;
+// obj["name"] = "Sidd";
+// console.log(obj);
+
+// //add new property
+
+// obj.city = "Gorakhpur";
+// console.log(obj);
+
+// //delete property
+// delete obj.age;
+// console.log(obj);
+
 const obj = {
-    name:"Siddharth",
-    age:20
+  name: "Siddharth",
+  age: 20,
+};
+
+//traversing an object with for in loop to find key and values
+
+for (let key in obj) {
+  console.log(key, "=>", obj[key]); //here key store key name so that i write obj[key]=> this key represent  each key of an object
 }
-console.log(obj.name) //1st way to acees obj data (.property or .keyname)
-console.log(obj["name"]) //2nd way to acees obj data["keyname"] or ["property"]
+
+
+//coping the objects  with spread operator(...) it is also called shallow copy
+let obj2 = {...obj}
+console.log(obj)
+console.log(obj2)
