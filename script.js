@@ -757,22 +757,75 @@ const { before } = require("node:test");
 // console.log(obj);
 
 // //delete property
-// delete obj.age;
-// console.log(obj);
+// // delete obj.age;
+// // console.log(obj);
 
-const obj = {
-  name: "Siddharth",
-  age: 20,
-};
+// const obj = {
+//   name: "Siddharth",
+//   age: 20,
+// };
 
-//traversing an object with for in loop to find key and values
+// //traversing an object with for in loop to find key and values
 
-for (let key in obj) {
-  console.log(key, "=>", obj[key]); //here key store key name so that i write obj[key]=> this key represent  each key of an object
-}
-
+// for (let key in obj) {
+//   console.log(key, "=>", obj[key]); //here key store key name so that i write obj[key]=> this key represent  each key of an object
+// }
 
 //coping the objects  with spread operator(...) it is also called shallow copy
-let obj2 = {...obj}
-console.log(obj)
-console.log(obj2)
+// let obj2 = {...obj}
+// console.log(obj)
+// console.log(obj2)
+
+// this keyword
+// normal function in Objects
+// const Profile = {
+//   name: "Alex",
+//   getName: function () {
+//     console.log(this.name);
+//   },
+// };
+// Profile.getName(); output : Alex
+
+
+//using arrow function
+// const Profile = {
+//   name: "Alex",
+//   getName: () => {
+//     console.log(this.name);
+//   },
+// };
+// Profile.getName();  output : undefined
+
+
+// pure and impure functions
+
+//pure function is a function which is does not use data outside of the function is called pure function  if we want make it pure we have to paas arguments and accept it via parameter and then we can use it ..
+
+//impure function is a function which is use data outside of the function is callled impure function
+
+
+
+//normal function vs arrow function
+
+
+// //normal function hold extra property of the global objects
+// function greet(){
+//   console.log(this)
+//   console.log(arguments)
+//   console.log(globalThis)
+//   console.log(" function")
+// }
+
+// //arrow function does not hold the extra property so it is very sufficent
+
+// const greetArrow =()=>{
+//   console.log(this)
+//   console.log(arguments)
+//   console.log(globalThis)
+//   console.log("Arrow function")
+// }
+
+// console.log(greet())
+// console.log("--------------------------------")
+// console.log(greetArrow())
+
