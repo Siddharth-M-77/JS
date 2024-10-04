@@ -832,17 +832,28 @@
 
 //Array
 //1. creating a array
-let arr = [1,2,3,4,"Sidd",true]
+// let arr = [1,2,3,4,"Sidd",true]
 
-//accessing an array
-console.log(arr[0]) //output:1
+// //accessing an array
+// console.log(arr[0]) //output:1
 
-console.log("Accessing aray",arr[0,1,2])// if u write multiple index while accessing time then it return only last index of the given index; //output: 3
+// console.log("Accessing aray",arr[0,1,2])// if u write multiple index while accessing time then it return only last index of the given index; //output: 3
 
-//Updating an array
+// //Updating an array
 
-arr.push(1122,3344,5566)
-console.log("Push array",arr)
+// arr.push(1122,3344,5566)
+// console.log("Push array",arr)
 
-arr.unshift(5566,7788,9900)
-console.log("Unshift array",arr)
+// arr.unshift(5566,7788,9900)
+// console.log("Unshift array",arr)
+
+//deleting an array
+
+// let arr = [1,2,3,4,5,6]
+// // let res = arr.pop()//remove the last element of an array
+// // console.log(res)
+// // let res2 = arr.shift() // remove the first element of an array
+// // console.log(res2)
+
+// let res3 = arr.splice(2,2)
+// console.log(res3)
