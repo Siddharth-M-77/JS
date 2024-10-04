@@ -857,3 +857,11 @@
 
 // let res3 = arr.splice(2,2)
 // console.log(res3)
+
+
+//traversing array(using for of loop for array & for in loop for Objects)
+let arr = [1,2,3,4,"Sidd",true]
+
+for(const element of arr){
+    console.log(element)
+}
