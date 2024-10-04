@@ -1,6 +1,5 @@
 // words vs keywords
 
-const { before } = require("node:test");
 
 // keyword=> any word which any meaning in JavaScript Programming lamguage is called keywords
 // word=> any word which any meaning is not  in JavaScript Programming lamguage is called word
@@ -828,4 +827,6 @@ const { before } = require("node:test");
 // console.log(greet())
 // console.log("--------------------------------")
 // console.log(greetArrow())
+
+
 
