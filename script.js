@@ -1,6 +1,5 @@
 // words vs keywords
 
-
 // keyword=> any word which any meaning in JavaScript Programming lamguage is called keywords
 // word=> any word which any meaning is not  in JavaScript Programming lamguage is called word
 
@@ -785,7 +784,6 @@
 // };
 // Profile.getName(); output : Alex
 
-
 //using arrow function
 // const Profile = {
 //   name: "Alex",
@@ -795,17 +793,13 @@
 // };
 // Profile.getName();  output : undefined
 
-
 // pure and impure functions
 
 //pure function is a function which is does not use data outside of the function is called pure function  if we want make it pure we have to paas arguments and accept it via parameter and then we can use it ..
 
 //impure function is a function which is use data outside of the function is callled impure function
 
-
-
 //normal function vs arrow function
-
 
 // //normal function hold extra property of the global objects
 // function greet(){
@@ -827,8 +821,6 @@
 // console.log(greet())
 // console.log("--------------------------------")
 // console.log(greetArrow())
-
-
 
 //Array
 //1. creating a array
@@ -858,10 +850,41 @@
 // let res3 = arr.splice(2,2)
 // console.log(res3)
 
-
 //traversing array(using for of loop for array & for in loop for Objects)
-let arr = [1,2,3,4,"Sidd",true]
+// let arr = [1, 2, 3, 4, "Sidd", true];
 
-for(const element of arr){
-    console.log(element)
-}
+// for(const element of arr){
+//     console.log(element)
+// }
+
+// find the length
+
+// console.log(arr.length);
+
+//  arr.length => length is property(.)
+//  arr.pop() => pop is method()
+
+
+//Array methods in Javascript✅✅✅✅✅
+
+// foreach vs map✅✅✅
+// let arr = [1,2,3,4,5]
+
+
+//forEach=> is a mutable method which change original array✅✅
+// //call back  function
+// arr.forEach((elem,index)=>{
+//     arr[index] = elem*2
+
+// })
+// console.log(arr)
+
+//map=> map is a immutable method which return a new array with some opeartions✅
+
+// let arr = [1,2,3,4,5]
+// let arr2 = arr.map((elem,index)=>{
+//     return elem*2
+// })
+// console.log(arr)
+// console.log(arr2)
+                                                                                                                                    
