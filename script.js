@@ -887,4 +887,20 @@
 // })
 // console.log(arr)
 // console.log(arr2)
-                                                                                                                                    
+                
+// let arr = [1,2,3,4,5]
+
+//filter=>Returns the elements of an array that meet the condition specified in a callback function✅✅
+// let filteredArray=arr.filter((elem,index)=>{
+//     return elem%2!==0
+// })
+// console.log(filteredArray)
+
+
+//find =>Returns the value of the first element in the array where predicate is true, and undefined otherwise✅✅
+let arr = [1,2,3,4,5]
+let findedelem=arr.find((elem,index)=>{
+    return elem%2!==0
+})
+console.log(findedelem)
+
