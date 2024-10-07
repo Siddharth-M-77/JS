@@ -898,9 +898,16 @@
 
 
 //find =>Returns the value of the first element in the array where predicate is true, and undefined otherwise✅✅
-let arr = [1,2,3,4,5]
-let findedelem=arr.find((elem,index)=>{
-    return elem%2!==0
-})
-console.log(findedelem)
+// let arr = [1,2,3,4,5]
+// let findedelem=arr.find((elem,index)=>{
+//     return elem%2!==0
+// })
+// console.log(findedelem)
 
+
+//findIndex=>Returns the index of the first element in the array where predicate is true, and -1 otherwise.
+let arr = [1,2,3,4,5,6,7,5]
+let index=arr.findIndex((elem,index)=>{
+    return elem===5
+})
+console.log(index)
