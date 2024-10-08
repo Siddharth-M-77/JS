@@ -912,7 +912,7 @@
 
 // includes=>Determines whether an array includes a certain element, returning true or false as appropriate.
 // let arr = [1, 2, 34, 5, 6, 7];
-// let includess = arr.includes(2);
+// let includess = arr.includes(2,5);//5 is a starting index from where will condition cheak
 // console.log(somee);
 
 //some()=>Determines whether the specified callback function returns true for any element of an array.
@@ -925,10 +925,17 @@
 
 //every=>Determines whether all the members of an array satisfy the specified test.
 
-
 // let arr = [1, 2, 34, 5, 6, 7];
 
 // let everyy= arr.every((value,index)=>{
 //     return value%2 ===0
 // })
 // console.log(everyy)
+
+//reduce()=>Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function
+let arr = [1, 2, 3, 45, 6, 7, 89];
+let sum = arr.reduce((acc, curVal) => {
+  return acc + curVal;
+}, 0);
+
+console.log(sum);
