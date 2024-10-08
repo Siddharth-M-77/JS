@@ -864,12 +864,10 @@
 //  arr.length => length is property(.)
 //  arr.pop() => pop is method()
 
-
 //Array methods in Javascript✅✅✅✅✅
 
 // foreach vs map✅✅✅
 // let arr = [1,2,3,4,5]
-
 
 //forEach=> is a mutable method which change original array✅✅
 // //call back  function
@@ -887,7 +885,7 @@
 // })
 // console.log(arr)
 // console.log(arr2)
-                
+
 // let arr = [1,2,3,4,5]
 
 //filter=>Returns the elements of an array that meet the condition specified in a callback function✅✅
@@ -896,7 +894,6 @@
 // })
 // console.log(filteredArray)
 
-
 //find =>Returns the value of the first element in the array where predicate is true, and undefined otherwise✅✅
 // let arr = [1,2,3,4,5]
 // let findedelem=arr.find((elem,index)=>{
@@ -904,10 +901,34 @@
 // })
 // console.log(findedelem)
 
-
 //findIndex=>Returns the index of the first element in the array where predicate is true, and -1 otherwise.
-let arr = [1,2,3,4,5,6,7,5]
-let index=arr.findIndex((elem,index)=>{
-    return elem===5
-})
-console.log(index)
+// let arr = [1,2,3,4,5,6,7,5]
+// let index=arr.findIndex((elem,index)=>{
+//     return elem===5
+// })
+// console.log(index)
+
+//includes() & some() and every()
+
+// includes=>Determines whether an array includes a certain element, returning true or false as appropriate.
+// let arr = [1, 2, 34, 5, 6, 7];
+// let includess = arr.includes(2);
+// console.log(somee);
+
+//some()=>Determines whether the specified callback function returns true for any element of an array.
+// let arr = [1, 2, 34, 5, 6, 7];
+
+// let somee = arr.some((value, index) => {
+//   return value % 2 === 0;
+// });
+// console.log(somee)
+
+//every=>Determines whether all the members of an array satisfy the specified test.
+
+
+// let arr = [1, 2, 34, 5, 6, 7];
+
+// let everyy= arr.every((value,index)=>{
+//     return value%2 ===0
+// })
+// console.log(everyy)
