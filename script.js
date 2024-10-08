@@ -933,9 +933,21 @@
 // console.log(everyy)
 
 //reduce()=>Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function
-let arr = [1, 2, 3, 45, 6, 7, 89];
-let sum = arr.reduce((acc, curVal) => {
-  return acc + curVal;
-}, 0);
 
-console.log(sum);
+// let arr = [1, 2, 3, 45, 6, 7, 89];
+// let sum = arr.reduce((acc, curVal) => {
+//   return acc + curVal;
+// }, 0);
+
+// console.log(sum);
+
+
+//Destructureing in Javascript✅✅✅✅
+
+// let arr = [1,2,33,44,55]
+// // const [one,two,three,four] = arr
+// // console.log(three)
+
+// // if u want to skip some items then use comma(,) for this
+// const [, , , ,five] = arr
+// console.log(five)
