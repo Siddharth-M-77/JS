@@ -979,23 +979,36 @@
 //String in Javascript
 
 //creating a string
-let str = "Hello"
+// let str = "Hello"
 
-//Read string
-console.log(str)
-console.log(str[0])
-console.log(str.at(-1))
-
-
-//strign can be reassigned but never can be changed by its index
-
-// for example
-console.log(str[0]=o)
-
-//you can reassigned
-str = "Hey"  //this is applicable
-str = null //this is applicable
+// //Read string
+// console.log(str)
+// console.log(str[0])
+// console.log(str.at(-1))
 
 
+// //strign can be reassigned but never can be changed by its index
+
+// // for example
+// console.log(str[0]=o)
+
+// //you can reassigned
+// str = "Hey"  //this is applicable
+// str = null //this is applicable
+
+
+
+//Strign traverse using for loop
+let str = 'Shri-Krishna'
+// for(let i = 0; i <str.length; i++){
+//     console.log(i,str[i])
+// }
+
+//String Methods
+// let str2 = str.concat("-hello")
+// console.log(str2)
+
+// let str3 = str.replace("S","B")//case sensitive if u give small later and given string is capital later then it search which letter is smal and then replace it.so this is case sensitive so make sure give small letter or capital letter acoording to the replace letter
+// console.log(str3)
 
 
