@@ -965,11 +965,37 @@
 
 //JSON(Javascript object Notation)=>
 
-let arr = [{}, {}, {}, {}];
-// console.log(typeof arr);
-let resStr = JSON.stringify(arr); // convert object to string we use JSON.stringify()
-console.log(typeof resStr);
+// let arr = [{}, {}, {}, {}];
+// // console.log(typeof arr);
+// let resStr = JSON.stringify(arr); // convert object to string we use JSON.stringify()
+// console.log(typeof resStr);
 
-let resObject = JSON.parse(resStr);
-console.log(typeof resObject); // convert string to Object we use JSON.parse()
+// let resObject = JSON.parse(resStr);
+// console.log(typeof resObject); // convert string to Object we use JSON.parse()
+
+
+
+
+//String in Javascript
+
+//creating a string
+let str = "Hello"
+
+//Read string
+console.log(str)
+console.log(str[0])
+console.log(str.at(-1))
+
+
+//strign can be reassigned but never can be changed by its index
+
+// for example
+console.log(str[0]=o)
+
+//you can reassigned
+str = "Hey"  //this is applicable
+str = null //this is applicable
+
+
+
 
