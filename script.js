@@ -941,9 +941,9 @@
 
 // console.log(sum);
 
-
 //Destructureing in Javascript✅✅✅✅
 
+// array Distructuring✅✅
 // let arr = [1,2,33,44,55]
 // // const [one,two,three,four] = arr
 // // console.log(three)
@@ -951,3 +951,25 @@
 // // if u want to skip some items then use comma(,) for this
 // const [, , , ,five] = arr
 // console.log(five)
+
+//Object Distructring✅✅✅
+
+// let obj = {
+//     name:"SIdd",
+//     age:23,
+//     city:"UP"
+
+// }
+// const {city,name,age} = obj
+// console.log(name)
+
+//JSON(Javascript object Notation)=>
+
+let arr = [{}, {}, {}, {}];
+// console.log(typeof arr);
+let resStr = JSON.stringify(arr); // convert object to string we use JSON.stringify()
+console.log(typeof resStr);
+
+let resObject = JSON.parse(resStr);
+console.log(typeof resObject); // convert string to Object we use JSON.parse()
+
