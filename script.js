@@ -973,9 +973,6 @@
 // let resObject = JSON.parse(resStr);
 // console.log(typeof resObject); // convert string to Object we use JSON.parse()
 
-
-
-
 //String in Javascript
 
 //creating a string
@@ -986,7 +983,6 @@
 // console.log(str[0])
 // console.log(str.at(-1))
 
-
 // //strign can be reassigned but never can be changed by its index
 
 // // for example
@@ -996,10 +992,8 @@
 // str = "Hey"  //this is applicable
 // str = null //this is applicable
 
-
-
 //Strign traverse using for loop
-let str = 'Shri-Krishna'
+let str = "Shri-Krishna";
 // for(let i = 0; i <str.length; i++){
 //     console.log(i,str[i])
 // }
@@ -1011,4 +1005,85 @@ let str = 'Shri-Krishna'
 // let str3 = str.replace("S","B")//case sensitive if u give small later and given string is capital later then it search which letter is smal and then replace it.so this is case sensitive so make sure give small letter or capital letter acoording to the replace letter
 // console.log(str3)
 
+// let num;
+// let randomNumber;
+// do{
+//     let randomNumber =  Math.floor(Math.random()*10)
+//     // console.log(randomNumber)
+//     num = +prompt("Enter a num")
+//     if(num<randomNumber){
+//         console.log("Number is too low")
+//     }
+//     else if(num>randomNumber){
+//         console.log("Number is too high")
+//     }
+//    else if(num===randomNumber){
+//     console.log("Congrates you r winner")
+// }
 
+// }while(num!==randomNumber)
+
+//NESTED LOOP / PATTERN Day 20 to 21-
+// 46=> Right Triangle - Star
+// let row = 5;
+// for(let i = 1; i<=row; i++){
+//     let stars = ''
+//     for(j=1;j<=i; j++){
+//         stars+="*"
+//     }
+//     console.log(stars)
+// }
+
+//47 Right Triangle - Number
+
+// let row = 5;
+// for(let i = 1; i<=row; i++){
+//     let stars = ''
+//     for(j=1;j<=i; j++){
+//         stars+=j
+//     }
+//     console.log(stars)
+// }
+
+//- Right Triangle - Alphabet
+
+// let rows = 5;
+// let Alphabet = 65;
+// for (let i = 1; i <= rows; i++) {
+//   let line = "";
+//   for (let j = 1; j <= i; j++) {
+//     line += String.fromCharCode(Alphabet) + " ";
+//     Alphabet++;
+//   }
+//   console.log(line);
+// }
+
+//49 Inverted Right Triangle - Star
+
+// let row = 5;
+// for(let i= row; i>=1;i--){
+//     let star= ""
+//     for(let j =1; j<=i; j++){
+//         star+="*"
+//     }
+//     console.log(star)
+// }
+
+//50 Mirrored Right Triangle
+
+let rows = 5; 
+for (let i = 1; i <= rows; i++) {
+    let line = ''; 
+    
+    // Print spaces
+    for (let j = 1; j <= rows - i; j++) {
+        line += ' '; 
+    }
+    
+    // Print stars
+    for (let k = 1; k <= i; k++) {
+        line += '*';
+    }
+    
+    console.log(line); 
+}
