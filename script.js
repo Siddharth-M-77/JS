@@ -1,5 +1,7 @@
 // words vs keywords
 
+const { error } = require("console");
+
 // keyword=> any word which any meaning in JavaScript Programming lamguage is called keywords
 // word=> any word which any meaning is not  in JavaScript Programming lamguage is called word
 
@@ -1092,11 +1094,31 @@ let str = "Shri-Krishna";
 //Error handling in javascript✅✅✅✅✅
 //try-block is used to handle synchronus(code which run line by line) code erors
 
+// try {
+//   let a = 10;
+//   console.log(a + b);
+// } catch (error) {
+//   console.log("Somethings went wrong from the developers end.");
+// } finally {
+//   console.log("Mai to chalunga hi chalunga bhai kuch bhi ho jaye");
+// }
+
+//custom errors
+
 try {
   let a = 10;
-  console.log(a + b);
+  let b = 2;
+  if (a % b == 0) {
+    throw new EvalError();
+  } else {
+    throw new Error();
+  }
 } catch (error) {
-  console.log("Somethings went wrong from the developers end.");
-} finally {
-  console.log("Mai to chalunga hi chalunga bhai kuch bhi ho jaye");
+  if (error.name == "EvalError") {
+    console.log("Even not allowed");
+  } else if (error.name == "Error") {
+    console.log("Odd not allowed");
+  } else {
+    console.log("somethings went wrong");
+  }
 }
