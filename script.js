@@ -1071,19 +1071,32 @@ let str = "Shri-Krishna";
 
 //50 Mirrored Right Triangle
 
-let rows = 5; 
-for (let i = 1; i <= rows; i++) {
-    let line = ''; 
-    
-    // Print spaces
-    for (let j = 1; j <= rows - i; j++) {
-        line += ' '; 
-    }
-    
-    // Print stars
-    for (let k = 1; k <= i; k++) {
-        line += '*';
-    }
-    
-    console.log(line); 
+// let rows = 5;
+// for (let i = 1; i <= rows; i++) {
+//     let line = '';
+
+//     // Print spaces
+
+//     for (let j = 1; j <= rows - i; j++) {
+//         line += ' ';
+//     }
+
+//     // Print stars
+//     for (let k = 1; k <= i; k++) {
+//         line += '*';
+//     }
+
+//     console.log(line);
+// }
+
+//Error handling in javascript✅✅✅✅✅
+//try-block is used to handle synchronus(code which run line by line) code erors
+
+try {
+  let a = 10;
+  console.log(a + b);
+} catch (error) {
+  console.log("Somethings went wrong from the developers end.");
+} finally {
+  console.log("Mai to chalunga hi chalunga bhai kuch bhi ho jaye");
 }
