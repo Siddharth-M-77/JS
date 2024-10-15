@@ -1105,20 +1105,37 @@ let str = "Shri-Krishna";
 
 //custom errors
 
-try {
-  let a = 10;
-  let b = 2;
-  if (a % b == 0) {
-    throw new EvalError();
-  } else {
-    throw new Error();
-  }
-} catch (error) {
-  if (error.name == "EvalError") {
-    console.log("Even not allowed");
-  } else if (error.name == "Error") {
-    console.log("Odd not allowed");
-  } else {
-    console.log("somethings went wrong");
-  }
-}
+// try {
+//   let a = 10;
+//   let b = 2;
+//   if (a % b == 0) {
+//     throw new EvalError();
+//   } else {
+//     throw new Error();
+//   }
+// } catch (error) {
+//   if (error.name == "EvalError") {
+//     console.log("Even not allowed");
+//   } else if (error.name == "Error") {
+//     console.log("Odd not allowed");
+//   } else {
+//     console.log("somethings went wrong");
+//   }
+// }
+
+// synchronus programming
+console.log("Hey with synchronus");
+
+//setTimeout=>Schedules execution of a one-time callback after delay milliseconds
+setTimeout(() => {
+  console.log("Hey i came from 2s ");
+}, 2000);
+
+console.log("Hey from line 3");
+
+//setinterval=>Schedules repeated execution of callback every delay milliseconds.
+setInterval(() => {
+  console.log("setInterval");
+}, 1000);
+
+
