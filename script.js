@@ -1124,18 +1124,40 @@ let str = "Shri-Krishna";
 // }
 
 // synchronus programming
-console.log("Hey with synchronus");
+// console.log("Hey with synchronus");
 
 //setTimeout=>Schedules execution of a one-time callback after delay milliseconds
-setTimeout(() => {
-  console.log("Hey i came from 2s ");
-}, 2000);
+// setTimeout(() => {
+//   console.log("Hey i came from 2s ");
+// }, 2000);
 
-console.log("Hey from line 3");
+// console.log("Hey from line 3");
 
-//setinterval=>Schedules repeated execution of callback every delay milliseconds.
-setInterval(() => {
-  console.log("setInterval");
-}, 1000);
+// //setinterval=>Schedules repeated execution of callback every delay milliseconds.
+// setInterval(() => {
+//   console.log("setInterval");
+// }, 1000);
+
+//Promise in javascript
+//promises is used to handle the error of asynchronus code
+
+// fetch=> it takes api and returns string data in first then ,we convert it into json by data.json() and after that we have to call another then which gives the final result/data after that we put catch for error handling
+
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((data) => data.json())
+//   .then((res) => console.log(res))
+//   .catch((error)=>console.log(error))
 
 
+//   async/await for handling asynchronus code and fetch apis 
+
+// async function fetchData(){
+//    try {
+//     let data = await fetch('https://jsonplaceholder.typicode.com/users')
+//     let res =await data.json()
+//     console.log(res)
+//    } catch (error) {
+//     console.log(error)
+//    }
+// }
+// fetchData()
