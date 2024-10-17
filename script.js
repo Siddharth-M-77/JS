@@ -1,6 +1,8 @@
 // words vs keywords
 
+const { rejects } = require("assert");
 const { error } = require("console");
+const { resolve } = require("path");
 
 // keyword=> any word which any meaning in JavaScript Programming lamguage is called keywords
 // word=> any word which any meaning is not  in JavaScript Programming lamguage is called word
@@ -1141,15 +1143,14 @@ let str = "Shri-Krishna";
 //Promise in javascript
 //promises is used to handle the error of asynchronus code
 
-// fetch=> it takes api and returns string data in first then ,we convert it into json by data.json() and after that we have to call another then which gives the final result/data after that we put catch for error handling
+// fetch=> it takes api and returns string data in first then() ,we convert it into json by data.json() and after that we have to call another then() which gives the final result/data after that we put catch for error handling
 
 // fetch("https://jsonplaceholder.typicode.com/users")
 //   .then((data) => data.json())
 //   .then((res) => console.log(res))
 //   .catch((error)=>console.log(error))
 
-
-//   async/await for handling asynchronus code and fetch apis 
+//   async/await for handling asynchronus code and fetch apis
 
 // async function fetchData(){
 //    try {
@@ -1161,3 +1162,28 @@ let str = "Shri-Krishna";
 //    }
 // }
 // fetchData()
+
+//Promises In Javascript✅✅✅
+
+//creating a Promise for Asynchronus code
+const myPromise = new Promise((res, rej) => {
+  fetch("https://fakestoreapi.com/users")
+    .then((strdata) => strdata.json())
+    .then((jsonData) => res(jsonData))
+    .catch((error)=>rej(error))
+});
+
+// making promise synchronus
+async function getData(){
+  try {
+    console.log("Starting Application")
+    const data = await myPromise;
+    console.log(data)
+    console.log("Ending Application")
+
+  } catch (error) {
+    console.log(error)
+    
+  }
+}
+getData()
