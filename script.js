@@ -1,9 +1,4 @@
 // words vs keywords
-
-const { rejects } = require("assert");
-const { error } = require("console");
-const { resolve } = require("path");
-
 // keyword=> any word which any meaning in JavaScript Programming lamguage is called keywords
 // word=> any word which any meaning is not  in JavaScript Programming lamguage is called word
 
@@ -1166,24 +1161,32 @@ let str = "Shri-Krishna";
 //Promises In Javascript✅✅✅
 
 //creating a Promise for Asynchronus code
-const myPromise = new Promise((res, rej) => {
-  fetch("https://fakestoreapi.com/users")
-    .then((strdata) => strdata.json())
-    .then((jsonData) => res(jsonData))
-    .catch((error)=>rej(error))
-});
+// const myPromise = new Promise((res, rej) => {
+//   fetch("https://fakestoreapi.com/users")
+//     .then((strdata) => strdata.json())
+//     .then((jsonData) => res(jsonData))
+//     .catch((error)=>rej(error))
+// });
+// myPromise.then((data)=>console.log(data)).catch((error)=>console.log(error))
 
 // making promise synchronus
-async function getData(){
-  try {
-    console.log("Starting Application")
-    const data = await myPromise;
-    console.log(data)
-    console.log("Ending Application")
+// async function getData(){
+//   try {
+//     console.log("Starting Application")
+//     const data = await myPromise;
+//     console.log(data)
+//     console.log("Ending Application")
 
-  } catch (error) {
-    console.log(error)
+//   } catch (error) {
+//     console.log(error)
     
-  }
-}
-getData()
+//   }
+// }
+// getData()
+
+
+
+
+
+
+
