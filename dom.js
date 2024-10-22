@@ -2,7 +2,7 @@
 
 //document=> document is the pre defined Object given by the JavaScript  which holds the connected html file(index.html)
 
-console.log(document);
+// console.log(document);
 //id=> document.getElementById()
 //class=>document.getElementByClassName()
 //tag=>document.getELementByTagName()
@@ -12,10 +12,22 @@ console.log(document);
 //document.querySelector()=>to select the first;/Single element
 //document.querySelectorAll()=>to select the multiple element
 
-let heading = document.querySelector("h1");
-console.log(heading);
-console.log(heading.innerHTML);
-console.log(heading.innerText)
-console.log(heading.textContent)
-heading.style.fontSize = "100px"
-console.log(heading.innerHTML = "Good Bye")
+// let heading = document.querySelector("h1");
+// console.log(heading);
+// console.log(heading.innerHTML);
+// console.log(heading.innerText)
+// console.log(heading.textContent)
+// heading.style.fontSize = "100px"
+// console.log(heading.innerHTML = "Good Bye")
+
+//EventListner in JavaScript
+
+let button = document.querySelector("button")
+console.log(button)
+let heading = document.querySelector("h1")
+console.log(heading)
+
+
+button.addEventListener("click",()=>{
+    heading.innerHTML = "<strike>Kaise ho broooo</strike>"
+})
