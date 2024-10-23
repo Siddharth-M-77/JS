@@ -57,3 +57,25 @@
 //     [heading.innerHTML, btn.innerHTML] =heading.innerHTML==="Friends"?["Strange","Follow"]:["Friends","Unfollow"] 
     
 //   });
+
+
+
+
+
+//Q-2:=>
+
+let nav = document.querySelector("nav")
+let menu = document.querySelector(".menu")
+let closeMenu = document.querySelector(".close-menu")
+console.log(closeMenu)
+console.log(menu)
+menu.addEventListener("click",()=>{
+    nav.style.height = "100%",
+    menu.style.display = "none",
+    closeMenu.style.display = "initial"
+})
+closeMenu.addEventListener("click",()=>{
+    nav.style.height = "10%",
+    menu.style.display = "initial",
+    closeMenu.style.display = "none"
+})
