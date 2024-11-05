@@ -36,7 +36,7 @@
 // let btn = document.querySelector("button");
 // let heading = document.querySelector("h1");
 
-// // using if-else 
+// // using if-else
 // btn.addEventListener("click", () => {
 //   if (heading.innerHTML === "Friends") {
 //     btn.innerHTML = "Follow";
@@ -49,33 +49,44 @@
 
 //   }
 
-
 // });
 
-//using Destructuring 
+//using Destructuring
 // btn.addEventListener("click", () => {
-//     [heading.innerHTML, btn.innerHTML] =heading.innerHTML==="Friends"?["Strange","Follow"]:["Friends","Unfollow"] 
-    
+//     [heading.innerHTML, btn.innerHTML] =heading.innerHTML==="Friends"?["Strange","Follow"]:["Friends","Unfollow"]
+
 //   });
-
-
-
-
 
 //Q-2:=>
 
-let nav = document.querySelector("nav")
-let menu = document.querySelector(".menu")
-let closeMenu = document.querySelector(".close-menu")
-console.log(closeMenu)
-console.log(menu)
-menu.addEventListener("click",()=>{
-    nav.style.height = "100%",
-    menu.style.display = "none",
-    closeMenu.style.display = "initial"
-})
-closeMenu.addEventListener("click",()=>{
-    nav.style.height = "10%",
-    menu.style.display = "initial",
-    closeMenu.style.display = "none"
+// let nav = document.querySelector("nav");
+// let menu = document.querySelector(".menu");
+// let closeMenu = document.querySelector(".close-menu");
+// console.log(closeMenu);
+// console.log(menu);
+// menu.addEventListener("click", () => {
+//   (nav.style.height = "100%"),
+//     (menu.style.display = "none"),
+//     (closeMenu.style.display = "initial");
+// });
+// closeMenu.addEventListener("click", () => {
+//   (nav.style.height = "10%"),
+//     (menu.style.display = "initial"),
+//     (closeMenu.style.display = "none");
+// });
+
+
+//revision 
+
+const heading = document.querySelector("h1")
+const btn = document.querySelector("button")
+const body = document.querySelector("body")
+btn.addEventListener("click",()=>{
+  heading.innerHTML = "Changed"
+  heading.style.color="red"
+  const p = document.createElement("p")
+  p.innerHTML = "I am a Paragraph"
+  body.appendChild(p)
+
+
 })
