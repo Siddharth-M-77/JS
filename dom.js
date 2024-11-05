@@ -75,18 +75,27 @@
 //     (closeMenu.style.display = "none");
 // });
 
+//revision
 
-//revision 
+// const heading = document.querySelector("h1")
+// const btn = document.querySelector("button")
+// const body = document.querySelector("body")
+// btn.addEventListener("click",()=>{
+//   heading.innerHTML = "Changed"
+//   heading.style.color="red"
+//   const p = document.createElement("p")
+//   p.innerHTML = "I am a Paragraph"
+//   body.appendChild(p)
 
-const heading = document.querySelector("h1")
-const btn = document.querySelector("button")
-const body = document.querySelector("body")
-btn.addEventListener("click",()=>{
-  heading.innerHTML = "Changed"
-  heading.style.color="red"
-  const p = document.createElement("p")
-  p.innerHTML = "I am a Paragraph"
-  body.appendChild(p)
+// })
 
+const form = document.querySelector("form");
+const input = document.querySelector("input");
+const ul = document.querySelector("#itemss");
 
-})
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const item = e.target.todo.value;
+  input.value = "";
+  ul.innerHTML += `<li>${item}</li>`;
+});
